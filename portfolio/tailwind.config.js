@@ -5,7 +5,9 @@ module.exports = {
     container: {
       center: true,
     },
-    extend: {},
+    extend: {
+      backgroundImage: { 'background': "url('/src/components/images/bookbackground.jpg')" }
+    },
   },
   plugins: [],
 }
