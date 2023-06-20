@@ -2,7 +2,7 @@
 
 const contactPageCss ={
 
-    contactGrid: "grid grid-cols-2 gap-5 mx-8 my-5 rounded",
+    contactGrid: "grid grid-cols-2 gap-5 mx-8 rounded",
 
     socialMediaGrid:'bg-slate-50 rounded',
 

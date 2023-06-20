@@ -8,19 +8,11 @@ import contactPageCss from "./contactCss"
 
 const ProfileComponent: React.FC = () => {
 
-    const { profileCard, contactGrid, socialMediaGrid,skillBlocks, blockOutline, imageSize, imageContainer, topProfileContainer, topImageContainer, topImage, introContainer, nameContainer, jobTitleContainer } = contactPageCss;
+    const { profileCard, skillBlocks, blockOutline, imageSize, imageContainer, topProfileContainer, topImageContainer, topImage, introContainer, nameContainer, jobTitleContainer } = contactPageCss;
   
 
     return(
         <div >
-            <h1>contact</h1>
-            <div className={contactGrid}>
-              <div className={socialMediaGrid}>
-                test
-              </div>
-
-
-
                 <div className={profileCard}>
                     <div className={topImageContainer}>
                     <div className={topProfileContainer}>
@@ -61,7 +53,7 @@ const ProfileComponent: React.FC = () => {
                     </div>
 
             </div>
-        </div>
+       
     )
 }
 export default ProfileComponent;
